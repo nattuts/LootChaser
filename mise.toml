@@ -1,0 +1,5 @@
+[tasks.build]
+run = "cd api && mvn compile && cd ../services && go build -o main main.go"
+
+[tasks.test]
+run = "cd api && mvn test && cd ../services && go test ./..."
