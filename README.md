@@ -10,7 +10,9 @@
 --- 
 
 #### Links do Projeto:
-**Quadro de Tarefas**: (https://github.com/users/nattuts/projects/4/views/1)
+**Quadro de Tarefas**: (https://github.com/users/nattuts/projects/4/views/1)  
+
+
 **Proposta**: (./docs/proposta.md)
 
 ---
