@@ -17,7 +17,6 @@ Acredito que os usuários irão montar suas wishlist's no LootChaser porque irã
 
 ## 3. Backlog do Produto
 > O acompanhamento através do quadro kanban está configurado aqui:  https://github.com/users/nattuts/projects/4/views/1
-> O quadro continuará sendo atualizado
 
 | Prioridade | História | Critérios de Aceitação | Sprint |
 | -------- | -------- | -------- | -------- |
@@ -51,3 +50,6 @@ Acredito que os usuários irão montar suas wishlist's no LootChaser porque irã
 
 ## 8. Integrações:
 > Neste momento, este projeto não está integrado com o projeto de nenhuma outra disciplina
+
+## Link do vídeo de apresentação da Sprint 0:
+Vídeo: https://drive.google.com/file/d/1wwuN3v3l-nUeI2TKSIc_V_oUfzbYBD62/view?usp=sharing
