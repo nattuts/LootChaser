@@ -1,8 +1,22 @@
 version: '3.8'
+
 services:
-  api:
-    build: ./api
+  postgres:
+    image: postgres:15-alpine
+    container_name: lootchaser-postgres
+    environment:
+      POSTGRES_DB: lootchaser
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: P@nds7416
     ports:
-      - "8080:8080"
-  collector:
-    build: ./services
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d lootchaser"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
