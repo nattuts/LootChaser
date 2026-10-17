@@ -1,0 +1,21 @@
+CREATE TABLE store (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    domain VARCHAR(255) NOT NULL UNIQUE,
+    base_url VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE game (
+    id BIGSERIAL PRIMARY KEY
+    title VARCHAR(250) NOT NULL,
+    genre VARCHAR(100) NOT NULL,
+    base_price DECIMAL(100) NOT NULL,
+    storeId BIGINT NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+    CONSTRAINT fk_game_store FOREIGN KEY (store id) REFERENCES Store(id) ON DELETE CASCADE 
+);
+
+CREATE INDEX idx_store_name ON Store(name);
+CREATE INDEX idx_game_title ON Game(title);
+CREATE INDEX idx_game_store_id ON GAME(store_id);
