@@ -1,0 +1,14 @@
+C:\Users\nathy\OneDrive\Documentos\faculdadee\WebII\LootChaser\api\src\main\java\com\lootchaser\domain\Game.java
+C:\Users\nathy\OneDrive\Documentos\faculdadee\WebII\LootChaser\api\src\main\java\com\lootchaser\domain\GameRepository.java
+C:\Users\nathy\OneDrive\Documentos\faculdadee\WebII\LootChaser\api\src\main\java\com\lootchaser\domain\Store.java
+C:\Users\nathy\OneDrive\Documentos\faculdadee\WebII\LootChaser\api\src\main\java\com\lootchaser\domain\StoreRepository.java
+C:\Users\nathy\OneDrive\Documentos\faculdadee\WebII\LootChaser\api\src\main\java\com\lootchaser\infraestructure\persistance\GameEntity.java
+C:\Users\nathy\OneDrive\Documentos\faculdadee\WebII\LootChaser\api\src\main\java\com\lootchaser\infraestructure\persistance\GameRepositoryPanache.java
+C:\Users\nathy\OneDrive\Documentos\faculdadee\WebII\LootChaser\api\src\main\java\com\lootchaser\infraestructure\persistance\StoreEntity.java
+C:\Users\nathy\OneDrive\Documentos\faculdadee\WebII\LootChaser\api\src\main\java\com\lootchaser\infraestructure\persistance\StoreRepositoryPanache.java
+C:\Users\nathy\OneDrive\Documentos\faculdadee\WebII\LootChaser\api\src\main\java\com\lootchaser\infraestructure\rest\dto\GameRequest.java
+C:\Users\nathy\OneDrive\Documentos\faculdadee\WebII\LootChaser\api\src\main\java\com\lootchaser\infraestructure\rest\dto\ProblemDetails.java
+C:\Users\nathy\OneDrive\Documentos\faculdadee\WebII\LootChaser\api\src\main\java\com\lootchaser\infraestructure\rest\dto\StoreRequest.java
+C:\Users\nathy\OneDrive\Documentos\faculdadee\WebII\LootChaser\api\src\main\java\com\lootchaser\infraestructure\rest\exception\ValidationExceptionMapper.java
+C:\Users\nathy\OneDrive\Documentos\faculdadee\WebII\LootChaser\api\src\main\java\com\lootchaser\infraestructure\rest\GameResource.java
+C:\Users\nathy\OneDrive\Documentos\faculdadee\WebII\LootChaser\api\src\main\java\com\lootchaser\infraestructure\rest\StoreResource.java
