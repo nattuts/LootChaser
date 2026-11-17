@@ -1,3 +1,5 @@
-api\src\main\resources\application.properties
+api/src/main/resources/application.properties
 
-C:\Users\nathy\OneDrive\Documentos\faculdadee\WebII\LootChaser\docker-compose.yml
+docker-compose.yml
+
+**/target/
